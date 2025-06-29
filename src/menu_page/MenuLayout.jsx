@@ -1,9 +1,14 @@
 import React from "react";
+import Coffee from "./CoffeeMenu/Coffee";
+import Food from "./FoodMenu/Food";
+import NonCoffee from "./NonCoffeeMenu/NonCoffee";
 
 const MenuLayout = () => {
     return (
         <div>
-            {/* Menu Layout Content */}
+            <Coffee />
+            <Food />
+            <NonCoffee />
         </div>
     );
 }
