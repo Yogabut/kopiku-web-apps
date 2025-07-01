@@ -208,7 +208,7 @@ export default function Navbar() {
 
       {/* Mobile menu panel */}
       <DisclosurePanel className="sm:hidden">
-        <div className="space-y-1 px-2 pt-2 pb-3 bg-[#05053f]">
+        <div className="space-y-1 px-2 pt-2 pb-3 bg-[#2F5249]">
           {navigation.map((item) => (
             <DisclosureButton
               key={item.name}
@@ -217,7 +217,7 @@ export default function Navbar() {
               className={classNames(
                 isActive(item) 
                   ? 'text-blue-400 bg-blue-900/20' 
-                  : 'text-white hover:text-blue-600',
+                  : 'text-white hover:text-[#FBDB93]',
                 'transition duration-200 w-full text-left block rounded-md px-3 py-2 text-base font-medium'
               )}
             >
