@@ -164,7 +164,7 @@ export default function Navbar() {
                     onClick={() => handleNavigation(item)}
                     className={classNames(
                         isActive(item) 
-                          ? 'text-blue-400 border-b-2 border-blue-400' 
+                          ? 'text-[#FBDB93] border-b-2 border-[#FBDB93]' 
                           : 'text-white hover:text-[#FBDB93]',
                         'transition duration-200 rounded-md px-3 py-2 text-sm font-medium'
                     )}
@@ -216,7 +216,7 @@ export default function Navbar() {
               onClick={() => handleNavigation(item)}
               className={classNames(
                 isActive(item) 
-                  ? 'text-blue-400 bg-blue-900/20' 
+                  ? 'text-[#FBDB93] bg-[#FBDB93]' 
                   : 'text-white hover:text-[#FBDB93]',
                 'transition duration-200 w-full text-left block rounded-md px-3 py-2 text-base font-medium'
               )}
