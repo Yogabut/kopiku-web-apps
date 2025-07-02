@@ -10,7 +10,7 @@ const Hero = () => {
         });
     }, []);       
     return (
-    <div className="pt-5" id='home'>
+    <div className="pt-10" id='home'>
         <section className="py-5 sm:py-8 lg:py-16">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
