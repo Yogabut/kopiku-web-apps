@@ -10,8 +10,8 @@ import { useEffect, useState } from 'react'
 const navigation = [
     { name: 'Home', id: '/', section: 'home', current: false },
     { name: 'About', id: '/about', section: 'about', current: false },
-    { name: 'Services', id: '/services', section: 'service', current: false },
-    { name: 'Projects', id: '/projects', section: 'projects', current: false },
+    { name: 'Menu', id: '/menu-set', section: 'menu-set', current: false },
+    { name: 'Promo', id: '/promo', section: 'promo', current: false },
     { name: 'Testimonials', id: '/testimonials', section: 'testimonial', current: false },
 ]
 
