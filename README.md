@@ -50,10 +50,10 @@ npm run dev
 <<<<<<< HEAD
 🌄 Preview
 ✅ Desktop View
-![Demo GIF](/asset/desktop.png).
+![](./public/asset/desktop.png)
 
 📱 Mobile View
-![Demo GIF](asset/mobile.png)
+![](./public/asset/mobile.png)
 
 📜 License
 MIT License — feel free to use, modify, and distribute with proper attribution
