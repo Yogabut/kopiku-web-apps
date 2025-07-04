@@ -47,6 +47,7 @@ run the development server:
 ```bash
 npm run dev
 ```
+<<<<<<< HEAD
 🌄 Preview
 ✅ Desktop View
 ![Demo GIF](/asset/desktop.png).
