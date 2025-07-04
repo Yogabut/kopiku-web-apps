@@ -50,12 +50,12 @@ const About = () => {
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                         <div 
-                            className='flex justify-center lg:justify-end'
+                            className='flex lg:justify-end'
                             data-aos='zoom-in'
                         >
                             <img 
                                 className="w-full max-w-sm sm:max-w-md lg:max-w-full h-auto object-contain rounded-2xl shadow-lg" 
-                                src="/asset/coffeeshop.png" 
+                                src="/asset/toko.png" 
                                 alt="Coffee Shake" 
                             />
                         </div>
