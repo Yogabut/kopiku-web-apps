@@ -47,13 +47,17 @@ run the development server:
 ```bash
 npm run dev
 ```
-<<<<<<< HEAD
+
 🌄 Preview
 ✅ Desktop View
 ![](./public/asset/desktop.png)
 
-📱 Mobile View
-![](./public/asset/mobile.png)
+<p align="center">
+  📱 Mobile View  
+  <br/>
+  <img src="https://github.com/Yogabut/kopiku-web-apps/blob/main/public/asset/mobile.png?raw=true" width="300"/>
+</p>
+
 
 📜 License
 MIT License — feel free to use, modify, and distribute with proper attribution
