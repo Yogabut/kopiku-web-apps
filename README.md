@@ -55,7 +55,7 @@ npm run dev
 ![Demo GIF](asset/mobile.png)
 
 📜 License
-MIT License — feel free to use, modify, and distribute with proper attribution.
+MIT License — feel free to use, modify, and distribute with proper attribution
 
 🙌 Credits
 Made with ❤️ by @yogabut
