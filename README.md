@@ -47,12 +47,6 @@ run the development server:
 ```bash
 npm run dev
 ```
-🌄 Preview
-✅ Desktop View
-![Demo](./asset/desktop.png).
-
-📱 Mobile View
-![Demo](.asset/mobile.png)
 
 📜 License
 MIT License — feel free to use, modify, and distribute with proper attribution
