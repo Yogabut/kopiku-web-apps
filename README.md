@@ -48,12 +48,13 @@ run the development server:
 npm run dev
 ```
 
-🌄 Preview
-✅ Desktop View
+🌄 Preview <br />
+
+### 💻 Desktop View
 ![](./public/asset/desktop.png)
 
-<p align="center">
-  📱 Mobile View  
+### 📱 Mobile View
+<p align="center">  
   <br/>
   <img src="https://github.com/Yogabut/kopiku-web-apps/blob/main/public/asset/mobile.png?raw=true" width="300"/>
 </p>
