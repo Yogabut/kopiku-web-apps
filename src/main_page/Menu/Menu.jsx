@@ -75,11 +75,11 @@ const Menu = () => {
   const cards = getCardData();
 
   return (
-    <div className="py-20 px-6 text-center" id='menu-set'>
-      <div className="mb-12" data-aos="fade-down">
+    <div className="py-15 px-6 text-center" id='menu-set'>
+      <div className="mb-8" data-aos="fade-down">
         <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-4">Our Menu</h1>
         <p className="max-w-xl mx-auto text-gray-600">
-          Enjoy our curated selection of beverages and foods crafted to elevate your experience.
+          Enjoy our curated selection of drink and foods crafted to elevate your experience.
         </p>
       </div>
 
