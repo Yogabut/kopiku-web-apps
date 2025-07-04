@@ -49,10 +49,10 @@ npm run dev
 ```
 🌄 Preview
 ✅ Desktop View
-![Demo GIF](./desktop.gif).
+![Demo GIF](/asset/desktop.png).
 
 📱 Mobile View
-![Demo GIF](./mobile.gif)
+![Demo GIF](asset/mobile.png)
 
 📜 License
 MIT License — feel free to use, modify, and distribute with proper attribution.
