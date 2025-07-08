@@ -26,7 +26,7 @@ export const FoodData = [
   {
     id: 4,
     name: "Toast",
-    sub: ["Avocado Toast", "Cheese Toast", "Garlic Butter Toast"],
+    sub: ["Avocado", "Cheese", "Garlic Butter"],
     description: "Toasted bread topped with savory and rich ingredients.",
     price: 25000,
     image: " "
@@ -34,7 +34,7 @@ export const FoodData = [
   {
     id: 5,
     name: "Cromboloni",
-    sub: ["Vanilla Cromboloni", "Chocolate Cromboloni", "Strawberry Cromboloni"],
+    sub: ["Vanilla", "Chocolate", "Strawberry"],
     description: "A trendy hybrid pastry — croissant meets bomboloni with rich fillings.",
     price: 27000,
     image: " "
@@ -42,7 +42,7 @@ export const FoodData = [
   {
     id: 6,
     name: "French Fries",
-    sub: ["Original Fries", "Cheese Fries", "Spicy Fries"],
+    sub: ["Original", "Cheese", "Spicy"],
     description: "Crispy golden fries with optional toppings and sauces.",
     price: 20000,
     image: " "
@@ -50,7 +50,7 @@ export const FoodData = [
   {
     id: 7,
     name: "Cookies",
-    sub: ["Chocolate Chip", "Double Chocolate", "Oatmeal Raisin"],
+    sub: ["Chocolate", "Double Chocolate", "Oatmeal Raisin"],
     description: "Freshly baked cookies with gooey centers and crunchy edges.",
     price: 18000,
     image: " "

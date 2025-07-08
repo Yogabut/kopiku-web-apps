@@ -22,22 +22,21 @@ const Food = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-b from-amber-50 to-amber-100 py-12">
-            <a href="">
             <div className="container mx-auto px-4">
                 <div data-aos="fade-up" className="text-center mb-12">
                     <h1 className="text-6xl text-amber-950 font-bold mb-4 pt-10">Food Menu</h1>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Discover our delicious selection of freshly prepared meals, snacks, and pastries.
+                    <p className="text-lg text-gray-500 max-w-2xl mx-auto">
+                        Discover our delicious selection of freshly prepared meals, snacks, and main courses, perfect for any time of day.
                     </p>
                 </div>
-                
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                     {FoodData.map((food, index) => (
+                        <a href="">
                         <div 
                             key={food.id}
                             data-aos="fade-up"
                             data-aos-delay={index * 100}
-                            className="shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-500 ease-in-out rounded-2xl overflow-hidden"
+                            className="shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-500 ease-in-out rounded-2xl overflow-hidden h-120"
                         >
                             <div className="relative">
                                 <img 
@@ -82,10 +81,10 @@ const Food = () => {
                                 </div>
                             </div>
                         </div>
+                        </a>
                     ))}
                 </div>
             </div>
-            </a>
         </div>
     );
 };
