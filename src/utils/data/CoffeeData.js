@@ -5,7 +5,7 @@ export const coffeeData = [
     type: ["hot"],
     description: "A bold and concentrated coffee shot to start your day strong.",
     price: 18000,
-    image: " "
+    image: "./asset/coffee.png"
   },
   {
     id: 2,
