@@ -20,3 +20,12 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  width: 100%;
+  min-width: 100%;
+}

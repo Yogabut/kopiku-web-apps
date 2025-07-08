@@ -9,7 +9,7 @@ const getCardData = () => [
     description: 'Discover our premium coffee selection, sourced from the finest beans.',
     imageUrl: './asset/coffee.png',
     tags: ['Espresso', 'Latte', 'Cappuccino', 'Americano'],
-    link: '/menu/Coffee',
+    link: '/Coffee',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const getCardData = () => [
     description: 'Explore our range of non-coffee beverages, from refreshing teas to rich hot chocolate.',
     imageUrl: './asset/noncoffee.png',
     tags: ['Tea', 'Matcha', 'Chocolate', 'Mocktails'],
-    link: '/menu/NonCoffee',
+    link: '/NonCoffee',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const getCardData = () => [
     description: 'Savor our delicious food offerings, including rice bowls, croissants, and sandwiches.',
     imageUrl: './asset/food.png',
     tags: ['Rice Bowls', 'Croissants', 'Sandwiches', 'Cookies'],
-    link: '/menu/Food',
+    link: '/Food',
   },
 ];
 

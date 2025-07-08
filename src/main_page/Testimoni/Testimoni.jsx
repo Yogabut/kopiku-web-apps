@@ -167,7 +167,7 @@ const Testimonials = () => {
                             href="#"
                             className="pb-2 text-base font-bold leading-7 text-gray-900 transition-all duration-200 border-b-2 border-gray-800 hover:border-gray-600 font-pj focus:outline-none focus:ring-1 focus:ring-gray-200 focus:ring-offset-2 hover:text-gray-600"
                         >
-                            Check all {totalReviews.toLocaleString()} reviews
+                            Check all {totalReviews.toLocaleString()}'s reviews
                         </a>
                     </div>
                 </div>

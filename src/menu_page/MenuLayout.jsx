@@ -10,7 +10,6 @@ const MenuLayout = () => {
 
             <Router>
                 <Routes>
-                    <Route path="/" element={<Coffee />} />
                     <Route path="/Coffee" element={<Coffee />} />
                     <Route path="/NonCoffee" element={<NonCoffee />} />
                     <Route path="/Food" element={<Food />} />
