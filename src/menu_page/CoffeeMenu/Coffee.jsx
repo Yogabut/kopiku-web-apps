@@ -17,7 +17,7 @@ const Coffee = () => {
             style: 'currency',
             currency: 'IDR',
             minimumFractionDigits: 0,
-        }).format(price);
+        }).format(price); 
     };
 
     return (
@@ -44,7 +44,7 @@ const Coffee = () => {
                                     alt={coffee.name} 
                                     className="w-full h-70 px-3 py-5"
                                 />
-                                <div className="absolute top-4 right-4">
+                                <div className="absolute top-7 right-4">
                                     <div className="flex gap-1">
                                         {coffee.type.map((type, idx) => (
                                             <span 
