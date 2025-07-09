@@ -29,9 +29,10 @@ const Coffee = () => {
                         Explore our selection of premium coffee beverages, crafted with the finest beans and expert care.
                     </p>
                 </div>
-                <a href="">
+
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                     {coffeeData.map((coffee, index) => (
+                        <a href="">
                         <div 
                             key={coffee.id}
                             data-aos="fade-up"
@@ -76,9 +77,10 @@ const Coffee = () => {
                                 </div>
                             </div>
                         </div>
+                        </a>
                     ))}
                 </div>
-                </a>
+                
             </div>
         </div>
     );

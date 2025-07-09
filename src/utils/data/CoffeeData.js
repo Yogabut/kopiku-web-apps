@@ -5,7 +5,7 @@ export const coffeeData = [
     type: ["hot"],
     description: "A bold and concentrated coffee shot to start your day strong.",
     price: 18000,
-    image: "./asset/coffee.png"
+    image: "./asset/Coffee/espreso.png"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const coffeeData = [
     type: ["hot", "iced"],
     description: "Espresso diluted with water, served hot or cold over ice.",
     price: 20000,
-    image: " "
+    image: "./asset/Coffee/americano.png"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const coffeeData = [
     type: ["hot", "iced"],
     description: "Smooth espresso with milk, available hot or iced.",
     price: 26000,
-    image: " "
+    image: "./asset/Coffee/latte.png"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const coffeeData = [
     type: ["hot"],
     description: "Classic espresso drink with steamed milk and thick milk foam.",
     price: 25000,
-    image: " "
+    image: "./asset/Coffee/cappucino.png"
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const coffeeData = [
     type: ["hot", "iced"],
     description: "Espresso with milk and caramel syrup, topped with caramel drizzle.",
     price: 28000,
-    image: " "
+    image: "./asset/Coffee/caramel-macchiato.png"
   },
   {
     id: 6,
