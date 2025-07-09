@@ -2,7 +2,7 @@ export const NonCoffeeData = [
   {
     id: 1,
     name: "Tea",
-    sub: ["Lychee Tea", "Lemongrass Tea", "Peppermint Tea", "English Breakfast Tea"],
+    sub: ["Lychee Tea", "Lemongrass Tea", "Peppermint Tea"],
     type: ["hot", "iced"],
     description: "A selection of aromatic teas to soothe your day, available hot or iced.",
     price: 22000,
