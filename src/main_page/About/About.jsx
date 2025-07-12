@@ -40,10 +40,14 @@ const About = () => {
             </div>
 
             <section className="relative py-5 sm:py-8 lg:py-12 z-10">
-                <div 
-                    data-aos='fade-left'
-                >
-                    <p className="text-8xl font-bold text-black sm:text-4xl lg:text-8xl mt-10 mb-5 font-sans text-start pl-30">
+                <div>
+                    <p 
+                        className="text-8xl font-bold text-black sm:text-4xl lg:text-8xl mt-10 mb-5 font-sans text-start pl-30"
+                        data-aos='fade-right'
+                        data-aos-duration="1000"
+                        data-aos-delay="100"
+                        data-aos-easing="ease-in-out"
+                    >
                         Our Story
                     </p>
                 </div>

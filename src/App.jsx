@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer'
 import Coffee from './menu_page/CoffeeMenu/Coffee'
 import NonCoffee from './menu_page/NonCoffeeMenu/NonCoffee'
 import Food from './menu_page/FoodMenu/Food'
+import Merchandise from './merchandise_page/merchandise'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Coffee" element={<Coffee />} />
           <Route path="/NonCoffee" element={<NonCoffee />} />
           <Route path="/Food" element={<Food />} />
+          <Route path="/Merchandise" element={<Merchandise />} />
         </Routes>
         <Footer />
       </Router>
