@@ -37,7 +37,7 @@ const Merchandise = () => {
                             key={item.id}
                             data-aos="fade-up"
                             data-aos-delay={index * 100}
-                            className="shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-500 ease-in-out rounded-2xl overflow-hidden"
+                            className="shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-500 ease-in-out rounded-2xl overflow-hidden h-90"
                         >
                             <div className="relative">
                                 <img 
