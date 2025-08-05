@@ -18,7 +18,7 @@ const Rate = () => {
                         <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
                             <div className="relative inline-flex" data-aos = 'fade-right'>
                                 <h1>
-                                    Grab KopiKu Merchant <br />Now!!
+                                    Get KopiKu Merchant <br />Now!!
                                 </h1>
                             </div>
                             {/* <div className="relative inline-flex" data-aos = 'fade-left'>

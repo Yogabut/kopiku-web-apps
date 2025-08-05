@@ -18,7 +18,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<MainLayout />} />
-          <Route path="/menu" element={<MenuLayout />} />
           <Route path="/Coffee" element={<Coffee />} />
           <Route path="/NonCoffee" element={<NonCoffee />} />
           <Route path="/Food" element={<Food />} />
