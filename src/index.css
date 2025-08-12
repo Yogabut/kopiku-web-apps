@@ -1,31 +1,184 @@
 @import "tailwindcss";
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    /* Kopiku Cafe Theme - Warm cream and teal */
+    --background: 45 15% 96%;
+    --foreground: 180 25% 15%;
+
+    --card: 45 20% 98%;
+    --card-foreground: 180 25% 15%;
+
+    --popover: 45 20% 98%;
+    --popover-foreground: 180 25% 15%;
+
+    /* Teal primary color from cafe design */
+    --primary: 175 50% 35%;
+    --primary-foreground: 45 20% 98%;
+
+    /* Warm secondary */
+    --secondary: 45 25% 90%;
+    --secondary-foreground: 180 25% 25%;
+
+    /* Soft muted tones */
+    --muted: 45 20% 92%;
+    --muted-foreground: 180 15% 45%;
+
+    /* Warm accent */
+    --accent: 35 35% 85%;
+    --accent-foreground: 180 25% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 45 20% 85%;
+    --input: 45 25% 94%;
+    --ring: 175 50% 35%;
+    
+    /* Cafe-specific design tokens */
+    --cafe-green: 175 50% 35%;
+    --cafe-green-light: 175 40% 45%;
+    --cafe-cream: 45 25% 90%;
+    --cafe-warm: 35 35% 85%;
+    --success: 150 60% 40%;
+    --warning: 45 90% 55%;
+    
+    /* Gradients */
+    --gradient-cafe: linear-gradient(135deg, hsl(var(--cafe-green)), hsl(var(--cafe-green-light)));
+    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(var(--cafe-cream)));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(var(--cafe-green) / 0.1);
+    --shadow-elegant: 0 10px 15px -3px hsl(var(--cafe-green) / 0.15);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 180 25% 8%;
+    --foreground: 45 20% 95%;
+
+    --card: 180 25% 10%;
+    --card-foreground: 45 20% 95%;
+
+    --popover: 180 25% 10%;
+    --popover-foreground: 45 20% 95%;
+
+    --primary: 175 45% 55%;
+    --primary-foreground: 180 25% 8%;
+
+    --secondary: 180 20% 15%;
+    --secondary-foreground: 45 20% 95%;
+
+    --muted: 180 20% 15%;
+    --muted-foreground: 45 10% 70%;
+
+    --accent: 180 20% 18%;
+    --accent-foreground: 45 20% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 45 20% 95%;
+
+    --border: 180 20% 18%;
+    --input: 180 20% 15%;
+    --ring: 175 45% 55%;
+    
+    --cafe-green: 175 45% 55%;
+    --cafe-green-light: 175 40% 65%;
+    --cafe-cream: 180 15% 20%;
+    --cafe-warm: 35 25% 25%;
+    --success: 150 50% 50%;
+    --warning: 45 85% 60%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  /* Hapus display: flex dan place-items: center */
-  min-width: 320px;
-  min-height: 100vh;
-}
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
 
-footer {
-  width: 100%;
-  min-width: 100%;
+  html {
+    scroll-behavior: smooth;
+  }
+
+  footer {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+@layer utilities {
+  .bg-gradient-warm {
+    background: var(--gradient-warm);
+  }
+  
+  .bg-gradient-cafe {
+    background: var(--gradient-cafe);
+  }
+  
+  .text-cafe-green {
+    color: hsl(var(--cafe-green));
+  }
+  
+  .border-cafe-cream {
+    border-color: hsl(var(--cafe-cream));
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .focus\:ring-cafe-green:focus {
+    --tw-ring-color: hsl(var(--cafe-green));
+  }
+  
+  .hover\:bg-cafe-green-light:hover {
+    background-color: hsl(var(--cafe-green-light));
+  }
 }

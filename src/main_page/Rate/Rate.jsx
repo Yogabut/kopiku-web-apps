@@ -21,10 +21,6 @@ const Rate = () => {
                                     Get KopiKu Merchant <br />Now!!
                                 </h1>
                             </div>
-                            {/* <div className="relative inline-flex" data-aos = 'fade-left'>
-                                <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#2F5249]"></span>
-                                <h1 className="relative text-4xl font-bold text-black sm:text-6xl lg:text-8xl">Kopiku.</h1>
-                            </div> */}
                         </h1>
 
                         {/* description */}

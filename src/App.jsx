@@ -8,7 +8,9 @@ import Coffee from './menu_page/CoffeeMenu/Coffee'
 import NonCoffee from './menu_page/NonCoffeeMenu/NonCoffee'
 import Food from './menu_page/FoodMenu/Food'
 import Merchandise from './merchandise_page/merchandise'
+import AddMenuForm from './addMenu/addMenu'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
           <Route path="/NonCoffee" element={<NonCoffee />} />
           <Route path="/Food" element={<Food />} />
           <Route path="/Merchandise" element={<Merchandise />} />
+          <Route path="/addMenu" element={<AddMenuForm />} />
         </Routes>
         <Footer />
       </Router>

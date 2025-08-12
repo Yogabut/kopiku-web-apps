@@ -74,8 +74,8 @@ const Food = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 center">
                     {filteredData.map((item, index) => {
                         const imageSrc =
-                            item?.food_image && item.food_image !== "null"
-                                ? item.food_image
+                            item?.food_image
+                                ? `http://localhost:3000/${item.food_image}`
                                 : "/asset/food-placeholder.png";
 
                         return (
@@ -89,7 +89,7 @@ const Food = () => {
                                         <img
                                             src={imageSrc}
                                             alt={item.food_name}
-                                            className="w-full h-70 px-3 py-5 object-cover rounded-t-2xl"
+                                            className="w-full h-80 px-2 py-3 object-cover rounded-4xl"
                                         />
                                     </div>
 

@@ -66,7 +66,7 @@ const Coffee = () => {
                     <img
                       src={imageSrc}
                       alt={coffee?.coffee_name || "Coffee"}
-                      className="w-full h-80 px-3 py-5 object-cover rounded-4xl"
+                      className="w-full h-80 px-2 py-3 object-cover rounded-4xl"
                     />
                     <div className="absolute top-7 right-4">
                       <div className="flex gap-1">
@@ -86,11 +86,11 @@ const Coffee = () => {
                     </div>
                   </div>
 
-                  <div className="p-6">
+                  <div className="p-4">
                     <h3 className="text-xl font-semibold text-amber-950 mb-2">
                       {coffee?.coffee_name || "Unnamed Coffee"}
                     </h3>
-                    <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                    <p className="text-gray-600 text-sm mb-2 line-clamp-3">
                       {coffee?.coffee_description ||
                         "No description available."}
                     </p>

@@ -45,8 +45,8 @@ const Merchandise = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {merchData.map((item, index) => {
             const imageSrc =
-              item?.merchandise_image && item.merchandise_image !== "null"
-                ? item.merchandise_image
+              item?.merchandise_image
+                ? `http://localhost:3000/${item.merchandise_image}`
                 : "/asset/merch-placeholder.png";
 
             return (
@@ -60,7 +60,7 @@ const Merchandise = () => {
                     <img
                       src={imageSrc}
                       alt={item?.merchandise_name || "Merch"}
-                      className="w-full h-70 px-3 py-5 object-cover rounded-t-2xl"
+                      className="w-full h-80 px-2 py-3 object-cover rounded-4xl"
                     />
                   </div>
 
